@@ -7,3 +7,5 @@ def best_score(a_dictionary):
             bigest_num = j
             t = i
     return (t)
+    if not isinstance(a_dictionary, dict) or len(a_dictionary) == 0:
+        return None
